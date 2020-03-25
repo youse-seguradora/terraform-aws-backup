@@ -88,5 +88,5 @@ variable "backup_selection_tag" {
     value = string
   }))
   description = "An array of object that either contain Tag-based conditions used to specify a set of resources to assign to a backup plan."
-  default     = null
+  default     = []
 }
